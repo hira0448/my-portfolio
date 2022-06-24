@@ -16,7 +16,7 @@ const initialState: Task[] = [
   },
 ];
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   const [tasks, setTasks] = useState(initialState);
 
   return (
